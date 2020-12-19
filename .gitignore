@@ -125,6 +125,7 @@ bmi_calculator_env/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+user_data_with_bmi.json
 
 # Pyre type checker
 .pyre/

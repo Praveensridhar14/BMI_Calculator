@@ -9,11 +9,8 @@ def unit_test_bmi_calculator(height, weight):
 
 class TestBmi(unittest.TestCase):
     def test_Bmi_Index(self):
-        """
-        Test that it can sum a list of integers
-        """
-        height_in_cm = 175
-        weight_in_kg = 75
+        height_in_cm = int(input("enter the height in cm for unit testing: "))
+        weight_in_kg = int(input("enter the weight in kg for unit testing: "))
         result = BMI_Caculator(height_in_cm, weight_in_kg)
         unit_test_bmi_value = unit_test_bmi_calculator(height_in_cm, weight_in_kg)
         self.assertEqual(result, unit_test_bmi_value)
